@@ -1,54 +1,87 @@
-# Miréio Trinley
+<h1 align="center">Hi, mein Name ist Miréio.</h1>
+<p align="center"><strong>Fullstack Software Engineer</strong></p>
+<p align="center">Embedded Systems · Operating Systems · Edge AI</p>
+<p align="center">C/C++ · Rust · ARM Linux | Aerospace & Space Interests</p>
+<p align="center"><a href="https://www.linkedin.com/in/mireio-trinley/">LinkedIn</a> · <a href="https://github.com/mitri24">GitHub</a></p>
 
-Applied computer science student (B.Sc.) at HTWG Konstanz, sixth semester. From
-September 2026 I am an exchange student at ENSEEIHT in Toulouse. I work on the
-layer below the application: bare-metal C on microcontrollers, embedded Linux,
-and what happens to timing once software meets real hardware. I am interested in
-systems where being late counts the same as being wrong, and I would rather
-answer a question with a measurement than with an argument.
+<p align="center">
+<img alt="C" src="https://img.shields.io/badge/C-2E8B57?style=flat-square&amp;logo=c&amp;logoColor=white" />
+<img alt="C++" src="https://img.shields.io/badge/C%2B%2B-2E8B57?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" />
+<img alt="Rust" src="https://img.shields.io/badge/Rust-2E8B57?style=flat-square&amp;logo=rust&amp;logoColor=white" />
+<img alt="Linux" src="https://img.shields.io/badge/Linux-2E8B57?style=flat-square&amp;logo=linux&amp;logoColor=white" />
+<img alt="Python" src="https://img.shields.io/badge/Python-2E8B57?style=flat-square&amp;logo=python&amp;logoColor=white" />
+<img alt="ARM" src="https://img.shields.io/badge/ARM-2E8B57?style=flat-square&amp;logo=arm&amp;logoColor=white" />
+</p>
 
-## Looking for a Bachelor's thesis placement
+I am a **Fullstack Software Engineer** with a focus on embedded systems, operating systems and edge AI. I work close to the hardware: **C/C++, Embedded Linux on ARM, microcontrollers and Rust**. I am particularly interested in aerospace and space/onboard software.
 
-I am looking for a Bachelor's thesis placement in France for spring 2027,
-starting around February and running for five to six months. I will be applying
-from October 2026. The topics below are the ones I would like to work on. If any
-of them overlap with your team's work, I would be glad to hear from you.
+I am currently working on **Edge AI & Embedded Vision research at LAAS-CNRS in Toulouse**. I study Applied Computer Science at **HTWG Konstanz** and am on an Erasmus+ exchange at **ENSEEIHT**. Alongside my systems work, I have professional fullstack engineering experience, including backend development, database design, API integration and application delivery.
 
-Contact: mireio.trinley@htwg-konstanz.de
+### <img src="assets/projects.svg" width="20" height="20" alt="" /> Selected systems projects
 
-## Interests
+**01 · Embedded Linux System for ARM / aarch64**
 
-- Real-time operating systems: schedulers, context switching, priority inversion
-- Worst-case execution time analysis; measured timing versus analytical bounds
-- Multicore interference: shared caches, memory bandwidth, partitioning and
-  isolation for mixed-criticality workloads (CAST-32A / AMC 20-193)
-- Embedded Linux: kernel configuration, Buildroot, cross toolchains, device drivers
-- Deterministic networking for critical systems: TSN, AFDX, network calculus
-- Hypervisors and virtualisation on embedded targets
+University team project · January–August 2026
 
-## Public projects
+- Configured and cross-compiled the Linux kernel and assembled a custom root filesystem with **Buildroot**.
+- Set up network boot and **systemd** services; worked with **PREEMPT_RT** kernel components.
+- Used **QEMU** and **GitHub Actions** for automated build and verification workflows.
+- Worked across the boot chain, kernel configuration and userspace integration on an ARM target.
 
-- **Digital-Camera-Calibration** — Image sensor characterisation on raw captures:
-  dark-frame and flat-field correction, noise analysis, defective-pixel repair.
-- **Kairos** — An adaptive study planner: offline-capable PWA with a Node/SQLite
-  backend. Included as evidence that I also finish and ship application software.
+**02 · MSP430 Microcontroller Programming in C**
 
-## University coursework, not publishable
+University coursework · February–August 2026 · [Repository](https://github.com/mitri24/Microprocessor-systems)
 
-The following was done as graded coursework at HTWG Konstanz. It lives in private
-university repositories and contains material I did not write, so I cannot publish
-it. I am listing it because it is where most of my systems experience comes from.
+- Programmed **MSP430** microcontrollers at register level using **Code Composer Studio**.
+- Configured hardware timers and peripherals; implemented interrupt-driven execution and **SPI communication**.
+- Used **finite-state machines** for event handling and explored low-power operating modes.
+- Practical focus: how peripheral configuration, interrupt handling and application state interact on a constrained target.
 
-- **Embedded systems lab** — Kernel configuration and build for Raspberry Pi 4,
-  Buildroot integration with an external package, cross-toolchain setup for
-  aarch64, initramfs and BusyBox, QEMU smoke test wired into CI, serial console
-  bring-up, and a character device exposing a hardware cycle counter.
-- **Microcontroller programming** — Bare-metal C on an MSP430FR5729: clock tree
-  and timer prescaler derivation, event-driven main loop with low-power mode,
-  button debouncing as a state machine, and a non-blocking SPI driver written as
-  a state machine with microsecond timing constraints.
-- **Digital design** — VHDL on a Microsemi FPGA: two-flip-flop synchronisers with
-  edge detection, a generic up/down counter, and a hex-to-seven-segment decoder.
+**03 · PilotGrid — Aviation Data Platform in Rust**
 
-Two projects that reproduce this kind of work from scratch, with published
-measurements and a documented build, are currently in preparation.
+University team project · January 2026–present
+
+- Aggregates flight-simulation traffic and ATC booking data from sources including **statsim and UK-CTS**.
+- Modular monolith with a **Rust / Axum** backend, **PostgreSQL** and **Docker**.
+- Backend stack includes **Tokio** for asynchronous execution, **SQLx** for database access and **Serde** for structured data.
+- Connects external data sources to airport-availability analysis and visualisation.
+
+PilotGrid and the Embedded Linux source repositories are private.
+
+### <img src="assets/toolkit.svg" width="20" height="20" alt="" /> Technical toolkit
+
+| Area | Technologies and foundations |
+| --- | --- |
+| Systems programming | C, C++, Rust, Bash; Python for scripting and analysis |
+| Embedded Linux & OS | ARM/aarch64, Linux kernel configuration, cross-compilation, Buildroot, QEMU, systemd, network boot, PREEMPT_RT |
+| Microcontrollers & electronics | MSP430, register-level programming, timers, interrupts, SPI, peripheral configuration, finite-state machines, low-power operation |
+| Digital logic | VHDL coursework: synchronisers, edge detection, counters, seven-segment decoding and testbenches |
+| Vision & numerical work | Python, OpenCV, NumPy, Jupyter; sensor calibration, dark/flat-frame correction, noise analysis and defective-pixel repair |
+| Rust backend | Axum, Tokio, SQLx, Serde; asynchronous APIs and external data integration |
+| Fullstack · frontend | TypeScript, JavaScript, React, Vue, Nuxt, Next.js, Tailwind CSS, Vite; reusable components and progressive web apps |
+| Fullstack · backend & data | Node.js, Express, SQL, PostgreSQL, SQLite, Supabase, Prisma; API integration and database design |
+| Fullstack · authentication & integrations | Authentication, role-based access control, OAuth integrations, LTI 1.3 LMS integration |
+| Testing & UI engineering | Vitest, Playwright, Storybook, Figma; component development and end-to-end testing |
+| Delivery & collaboration | Docker, Git, GitHub Actions; automated builds and verification workflows |
+| Additional language experience | Scala |
+
+### <img src="assets/research.svg" width="20" height="20" alt="" /> Research direction
+
+**Edge AI & embedded vision** is my current research area. I am interested in how computation, memory and energy constraints shape intelligent systems at the edge.
+
+Within **operating systems and space/onboard software**, I want to deepen my work on real-time execution, scheduling, latency, resource constraints and reliable interaction with hardware.
+
+### <img src="assets/building.svg" width="20" height="20" alt="" /> Currently building
+
+- **[Kairos](https://github.com/mitri24/Kairos)** — learning and focus software with task/exam planning, a focus timer and offline-capable workflows. JavaScript, Node.js and SQLite.
+- **ORBITAL ACADEMY** — a bilingual space-engineering learning platform with educational simulations, interactive engineering exercises, offline learning and progress tracking. In development; currently a local project.
+
+### <img src="assets/community.svg" width="20" height="20" alt="" /> Beyond the code
+
+I have also worked as a technical lead and university lecturer with **IT For Youth Ghana**, supporting technology education and women entering the field.
+
+**Toulouse, France · German and English**
+
+Open to conversations about embedded systems, operating systems, edge AI and aerospace software — especially in small teams building and investigating things together.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/mireio-trinley/)
