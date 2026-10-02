@@ -15,7 +15,7 @@
 
 I am a **Fullstack Software Engineer** with a focus on embedded systems, operating systems and edge AI. I work close to the hardware: **C/C++, Embedded Linux on ARM, microcontrollers and Rust**. I am particularly interested in aerospace and space/onboard software.
 
-I am currently working on **Edge AI & Embedded Vision research at LAAS-CNRS in Toulouse**. I study Applied Computer Science at **HTWG Konstanz** and am on an Erasmus+ exchange at **ENSEEIHT**. Alongside my systems work, I have professional fullstack engineering experience, including backend development, database design, API integration and application delivery.
+I am currently joining LAAS-CRNS on **Edge AI & Embedded Vision research in Toulouse**. I study Applied Computer Science at **HTWG Konstanz** and am on an Erasmus+ exchange at **ENSEEIHT**. Alongside my systems work, I have professional fullstack engineering experience, including backend development, database design, API integration and application delivery.
 
 ### <img src="assets/projects.svg" width="20" height="20" alt="" /> Selected systems projects
 
@@ -67,7 +67,6 @@ PilotGrid and the Embedded Linux source repositories are private.
 
 ### <img src="assets/research.svg" width="20" height="20" alt="" /> Research direction
 
-**Edge AI & embedded vision** is my current research area. I am interested in how computation, memory and energy constraints shape intelligent systems at the edge.
 
 Within **operating systems and space/onboard software**, I want to deepen my work on real-time execution, scheduling, latency, resource constraints and reliable interaction with hardware.
 
